@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#time{
+    font-size: 5.5rem;
+    line-height: 1.2;
+}
+
+.name{
+    border-bottom: 2px solid black;
+}
+
+.underline{
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    #time{
+        font-size: 4rem;
+    }
+}
+
+h1{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.date{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-weight: bolder;
+}
+
